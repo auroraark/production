@@ -1,0 +1,430 @@
+body{
+	font-family:"avenir Next";
+	margin:0;
+}
+
+li{
+	list-style: none;
+}
+
+#wrapper{
+	width: 100%;
+	overflow: hidden;
+}
+
+
+/* トップ画像 */
+
+.top-wrapper{
+	height: 550px;
+	padding:50px;
+	text-align: center;
+	background-image: url(../img/office.jpg);
+	background-size: cover;
+	color: #fff;
+}
+
+.top-text{
+	padding-top: 50px;
+	font-size:20px;
+}
+
+
+/* こんなお悩みを */
+
+.onayami-wrapper{
+	padding: 40px;
+	width: 80%;
+	margin:0 auto;
+}
+
+.onayami-wrapper h2{
+	text-align: center;
+	margin:40px 0 60px;
+}
+
+.onayamis{
+	width: 60%;
+	margin:0 auto;
+	font-size: 18px;
+	padding:15px 10px;
+	border:1px dashed #5858fa;
+	background-color: #f2f2f2;
+	}
+
+	.onayamis li i{
+		margin: 15px;
+	}
+
+	.onayami-text{
+		text-align: center;
+		font-size: 18px;
+		margin:70px;
+	}
+
+	.fukainayami{
+		font-size: 24px;
+		font-weight: bold;
+		margin:75px;
+		color: #424242;
+		text-decoration: underline;
+		text-decoration-color: red;/*#F5A9BC;*/
+	}
+
+	.onayami-koe{
+		width: 70%;
+		margin:50px auto;
+		font-size: 18px;
+		background-color: yellow;
+		text-align: left;
+	}
+
+	blockquote {
+    position: relative;
+    padding: 10px 15px 10px 30px;
+    box-sizing: border-box;
+    font-style: italic;
+    background: #f5f5f5;
+    color: #777777;
+  /*  border-left: 4px solid #9dd4ff;*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
+    width: 80%;
+    margin: 70px auto;
+}
+
+blockquote:before{
+ /*   display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    content: "\f10d";
+    font-family: FontAwesome;
+    color: #9dd4ff;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 900;*/
+}
+
+blockquote p {
+    padding: 0;
+    margin: 7px 0;
+    line-height: 1.7;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+}
+
+.onayami-content{
+	margin-bottom: 70px;
+}
+
+.onayami-content p{
+	text-align: left;
+}
+
+.onayami-kaisetsu{
+/*	margin-top: 30px;*/
+	width: 78%;
+	margin:0 auto;
+}
+
+.onayami-kaisetsu p{
+	margin:50px 0;
+}
+
+.book-gazou{
+	width: 30%;
+	height: auto;
+	float: right;
+	margin-left:15px;
+}
+
+.book-gazou img{
+	width: 100%;
+	height: auto;
+}
+
+.seminar-gazou{
+	width: 30%;
+	height: auto;
+	float:left;
+	margin-right: 15px;
+}
+
+.seminar-gazou img{
+	width: 100%;
+	height: auto;
+}
+
+.hurry-gazou{
+	width: 30%;
+	height: auto;
+	float: right;
+	margin-left:15px;
+}
+
+.hurry-gazou img{
+	width: 100%;
+	height: auto;
+}
+
+
+/* 解決のポイント */
+
+.kaiketsu-wrapper{
+	background-color: #EFF8FB;
+	width: 100%;
+	padding:30px;
+}
+
+.kaiketsu-wrapper h2{
+	text-align: center;
+}
+
+.kaiketsu-wrapper p{
+	text-align: center;
+}
+
+
+.point-list{
+	width: 55%;
+	margin:50px auto;
+	font-size: 18px;
+	padding:15px 10px;
+	border:1px dashed #5858fa;
+	background-color: #f2f2f2;
+	}
+
+	.point-list li i{
+		margin: 10px;
+	}
+
+
+	/* 専門家によるトレーニング */
+
+	.training-wrapper{
+		width: 100%;
+		text-align: center;
+		padding: 50px 0 0;
+	}
+
+	.training-wrapper h2{
+		margin-bottom: 50px;
+	}
+
+	.training-wrapper h3{
+		margin-top: 10px;
+	}
+
+	.training-wrapper p{
+		width: 100%;
+		text-align: left;
+	}
+
+	.training-contents{
+		width: 90%;
+		margin:0 auto;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.training-content{
+		width: 40%;
+		height: 470px;
+		margin:10px;
+		padding: 10px;
+	}
+
+	.training-content img{
+		width: 100%;
+		height: auto;
+	}
+
+
+
+/* 期待できる効果 */
+
+.kouka-wrapper{
+	background-color: #EFF8FB;
+	padding: 50px 0;
+}
+
+.template{
+	width: 100%;
+	text-align: center;
+/*	margin-bottom: 50px;*/
+}
+
+
+	.list{
+	text-align: left;
+	width: 55%;
+	margin:50px auto;
+	font-size: 18px;
+	padding:15px 10px;
+	border:1px dashed #5858fa;
+	background-color: #f2f2f2;
+	}
+
+	.list li{
+		margin:10px;
+	}
+
+	.list li i{
+		margin: 10px;
+	}
+
+
+
+/* 契約までの流れ */
+
+.nagare-wrapper{
+	width: 100%;
+}
+
+.nagare-gazou{
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/achieve.jpg);
+	background-size:cover;		
+}
+
+.nagare-title{
+	height: 100%;
+	background:rgba(128,128,128,0.4);
+}
+
+.nagare-title h2{
+	margin-top: 0;
+	padding-top: 150px;
+}
+
+.nagare-wrapper h2,.nagare-wrapper p{
+	color: #fff;
+}
+
+#training-steps{
+	padding: 50px 0;
+/*	background-color: #f2f2f2;*/
+}
+
+#training-steps p{
+	color: #1c1c1c;
+}
+
+
+.training-step{
+	width: 65%;
+	margin:30px auto;
+	display: flex;
+	background-color: #E0ECF8;/*F6F7FA;/*AEC4F9;*/
+	border-radius: 20px;
+	border:1px solid #AEC4F9;
+}
+
+.step{
+	flex:0.8;
+}
+
+.step-title{
+	flex:1.5;
+	background-color: #F6F7FA;/*#A9E2F3;*/
+	font-weight: bold;
+}
+
+.step-nakami{
+	flex:6;
+	padding: 0 20px;
+	text-align: left;
+}
+
+
+/* このような方におすすめ */
+
+	.osusume-wrapper{
+		background-color: #EFF8FB;
+		padding: 30px 0;
+	}
+
+	.osusume-wrapper i{
+		color: #7F7BFA;
+	}
+
+
+/* 価格 */
+
+.price-wrapper{
+	width: 70%;
+	margin:30px auto;
+	padding:  0;
+	border:3px dashed skyblue;
+	border-radius: 10px;
+	}
+
+.price-wrapper p{
+		font-size: 20px;
+	}
+
+
+
+
+
+/* さいごに */
+
+.last-wrapper{
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/beard.jpg);
+	background-size:cover;		
+}
+
+.last-text{
+	height: 100%;
+	background:rgba(128,128,128,0.7);
+	color:#fff;
+	font-size: 18px;
+	line-height: 1.8;
+
+}
+
+.last-text h2{
+	margin-top: 0;
+	padding-top: 130px;
+}
+
+/* 個別相談 */
+
+.form-wrapper{
+	padding: 60px 0;
+	width: 100%;
+	background-color: #f2f2f2;
+	}
+
+input{
+	width: 240px;
+	height: 50px;
+	font-size: 18px;
+	display: block;
+	margin:0 auto;
+}
+
+input:hover{
+	color:tomato;
+}
+
+
+/* フッター */
+
+footer{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 14px;
+	color: #585858;
+}
+
