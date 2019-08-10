@@ -385,7 +385,7 @@ blockquote cite {
 
 .last-text{
 	height: 100%;
-	background:rgba(128,128,128,0.7);
+	background:rgba(128,128,128,0.9);
 	color:#fff;
 	font-size: 18px;
 	line-height: 1.8;
@@ -406,8 +406,8 @@ blockquote cite {
 	}
 
 input{
-	width: 240px;
-	height: 50px;
+	width: 200px;
+	height: 40px;
 	font-size: 18px;
 	display: block;
 	margin:0 auto;
@@ -428,3 +428,90 @@ footer{
 	color: #585858;
 }
 
+
+
+
+/*バナー*/
+
+.bannerdesu{
+	text-align: center;
+	margin:50px;
+	font-size: 20px;
+}
+
+.banner-wrapper{
+	width: 74%;
+	height: 150px;
+	margin:0 auto 50px;
+	display: flex;
+}
+
+
+.left-banner{
+	flex:2;
+	text-align: center;
+	background:radial-gradient(#84E7FA,#3305dd);
+	color:#fff;
+	margin-right: 20px;
+	padding: 15px;
+	position: relative;
+}
+
+.left-banner h2{
+	margin:10px 0 0;
+	font-size:28px;
+}
+
+.left-text{
+	margin:10px;
+}
+
+.left-banner:after {
+border:18px solid transparent;
+border-left-color:#3305dd;
+border-right-width:0;
+right:-18px;
+content:"";
+display:block;
+top:52px;
+position:absolute;
+width:0;
+}
+
+.right-banner{
+	flex:3;
+	background-image: url(../img/holdhands.jpg);
+	background-size: cover;
+	text-align: center;
+}
+
+.banner-screen{
+	height: 130px;
+	background:rgba(128,128,128,0.6);
+	font-size: 16px;
+	line-height: 1.4;
+	padding:10px 20px;
+}
+
+.banner-screen p{
+	margin:0;
+	color:#fff;
+}
+
+.more a{
+	display: block;
+	width: 25%;
+	float: right;
+	margin-top:10px;
+	padding: 10px 20px;
+	background-color: #5F87EF;
+	border-radius: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+.more i{
+	margin-left: 10px;
+}
