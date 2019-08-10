@@ -194,7 +194,6 @@ blockquote cite {
 	width: 55%;
 	margin:50px auto;
 	font-size: 18px;
-	padding:15px 10px;
 	border:1px dashed #5858fa;
 	background-color: #f2f2f2;
 	}
@@ -252,16 +251,16 @@ blockquote cite {
 .kouka-wrapper{
 	background-color: #EFF8FB;
 	padding: 50px 0;
-}
+	}
 
 .template{
 	width: 100%;
 	text-align: center;
-/*	margin-bottom: 50px;*/
-}
+	/*	margin-bottom: 50px;*/
+	}
 
 
-	.list{
+.list{
 	text-align: left;
 	width: 55%;
 	margin:50px auto;
@@ -310,13 +309,11 @@ blockquote cite {
 
 #training-steps{
 	padding: 50px 0;
-/*	background-color: #f2f2f2;*/
 }
 
 #training-steps p{
 	color: #1c1c1c;
 }
-
 
 .training-step{
 	width: 65%;
@@ -346,14 +343,14 @@ blockquote cite {
 
 /* このような方におすすめ */
 
-	.osusume-wrapper{
-		background-color: #EFF8FB;
-		padding: 30px 0;
-	}
+.osusume-wrapper{
+	background-color: #EFF8FB;
+	padding: 30px 0;
+}
 
-	.osusume-wrapper i{
-		color: #7F7BFA;
-	}
+.osusume-wrapper i{
+	color: #7F7BFA;
+}
 
 
 /* 価格 */
@@ -515,3 +512,288 @@ width:0;
 .more i{
 	margin-left: 10px;
 }
+
+
+
+
+/* タブレット用レイアウト */
+
+@media(max-width: 1000px){
+
+
+
+}
+
+
+
+
+
+/* スマホ用 */
+
+@media(max-width: 785px){
+
+	.top-wrapper{
+		width: 100%;
+		height: auto;
+		padding: 10px;
+	}
+
+	.top-wrapper img{
+		max-width: 100%;
+		height: 300px;
+		background-position: center;
+	}
+
+
+	.top-text{
+		width: 90%;
+		margin:0 auto;
+		padding: 20px;
+	}
+
+	.top-text h1{
+		font-size:24px;
+		text-shadow: 2px 2px blue;
+	}
+
+	.top-text h3{
+		font-size:18px;
+		text-shadow: 2px 2px blue;
+	}
+
+
+
+
+	/* お悩み */
+
+	.onayamis{
+		width: 100%;
+		margin:0 auto 50px;
+	}
+
+	.onayami-text{
+		width: 100%;
+		margin:0 auto;
+		
+	}
+
+	.fukainayami{
+		width: 100%;
+		margin:60px auto;
+
+	}
+
+	.onayami-koe{
+		width: 100%;
+	}
+
+	blockquote {
+		width: 100%;
+	}
+
+	.onayami-kaisetsu{
+		width: 100%;
+	}
+
+
+	/* 解決のポイント */
+
+
+	.kaiketsu-wrapper{
+		padding:20px 0;
+}
+
+	.point-list{
+		width: 90%;
+		margin:0 auto;
+		padding:15px 0;
+	}
+
+
+	.kaiketsu-wrapper p{
+		padding: 20px;
+	}
+
+
+
+/* パーソナルトレーニングとは */
+
+	.training-wrapper h2{
+		padding:10px;
+		font-size:18px;
+		margin-bottom: 20px;
+	}
+
+	.training-wrapper h3{
+		padding: 0 20px;
+		font-size:16px;
+		margin-bottom: 20px;
+	}
+
+	.training-contents{
+		width: 90%;
+		margin:50px auto;
+		display: block;
+
+	}
+
+	.training-content{
+		width: 95%;
+		height: auto;
+		margin:10px auto;
+		padding: 10px;
+	}
+
+	.training-content img{
+		width: 100%;
+		height: auto;
+	}
+
+
+	/* 期待できる効果 */
+
+.list{
+	width: 90%;
+	font-size: 18px;
+	padding:15px 0;
+	}
+
+	.list li{
+		margin:0;
+	}
+
+
+/* 契約までの流れ */
+
+.training-step{
+	width: 95%;
+}
+
+.step{
+	flex:0.8;
+}
+
+.step-title{
+	flex:2.2;
+	font-weight: normal;
+	font-size:14px;
+	padding-top: 14px;
+}
+
+.step-nakami{
+	flex:5.2;
+	padding: 0 10px;
+	font-size:14px;
+	padding-top: 7px;
+}
+
+
+/* おすすめできます */
+
+.osusume-wrapper p{
+	padding: 0 10px;
+}
+
+.osusume-wrapper li{
+	width: 95%;
+	margin:0 auto;
+}
+
+.osusume-wrapper{
+	padding: 30px 0;
+}
+
+.osusume-wrapper i{
+	color: #7F7BFA;
+}
+
+.list ul{
+	padding: 10px;
+}
+
+
+/* 価格 */
+
+.price-wrapper{
+	width: 80%;
+	padding:  20px;
+	border-radius: 20px;
+	}
+
+.price-wrapper p{
+		font-size: 20px;
+	}
+
+
+/* さいごに */
+
+.last-wrapper{
+	height: 630px;
+}
+
+.last-text{
+	font-size: 16px;
+
+}
+
+.last-text h2{
+	margin-top: 0;
+	padding-top: 70px;
+}
+
+.last-text p{
+	padding: 10px;
+	text-align: left;
+}
+
+
+/* 個別相談 */
+
+input{
+	width: 160px;
+	height: 30px;
+	font-size: 16px;
+}
+
+
+/* バナー */
+
+.banner-wrapper{
+	width: 100%;
+	margin:0 auto 50px;
+	height: auto;
+	display: block;
+}
+
+
+.left-banner{
+	width: 90%;
+	margin:0 auto;
+	padding: 10px;
+	position: relative;
+	margin-bottom: 18px;
+}
+
+
+
+.left-banner:after {
+border:18px solid transparent;
+border-top-color:#3305dd;
+border-bottom-width:0;
+bottom:-18px;
+content:"";
+display:block;
+top:130px;
+left:200px;
+position:absolute;
+width:0;
+}
+
+.right-banner{
+	width: 94%;
+	margin:0 auto;
+}
+
+
+
+
